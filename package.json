@@ -4,8 +4,8 @@
   "description": "Frontend for a medival based crime-spree MMO",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack",
-    "build -w": "npx webpack --watch",
+    "build": "webpack",
+    "watch": "webpack --watch",
     "start": "http-server"
   },
   "author": "",
